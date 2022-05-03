@@ -1,0 +1,10 @@
+qtdCopias = int (input("Informe a quantidade de cópias desejadas: "))
+if qtdCopias <= 2:
+    preco = 0.10
+elif qtdCopias>2 and qtdCopias <= 10 :
+    preco = 0.08
+elif qtdCopias>10 and qtdCopias <= 100 :
+    preco = 0.06
+elif qtdCopias > 100:
+    preco = 0.04
+print("O valor a ser pago por cada cópia é : ", preco)
